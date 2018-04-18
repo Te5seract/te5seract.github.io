@@ -1,0 +1,331 @@
+.active-link
+{
+  color:var(--blue)!important;  
+  cursor:default;
+}
+.active-link:hover:before
+{
+  content:'';
+  height:0px!important;
+}
+#navigation2 > ul > li > a
+{
+  padding:10px;
+  font-size:13px;
+  text-decoration:none;
+  color:var(--nav-grey);
+  position:relative;    
+}
+#navigation > ul > li > a
+{
+  padding:10px;
+  font-size:13px;
+  text-decoration:none;
+  color:var(--white);
+  position:relative;
+}
+#navigation > ul > li > a::before,
+#navigation2 > ul > li > a::before,
+#navigation > ul > li > a::before,
+#navigation2 > ul > li > a::before
+{
+  content:'';
+  position:absolute;
+  height:0px;
+  width:100%;
+  background-color:var(--blue);
+  left:0;
+  bottom:-10px;
+  opacity:0;
+  transition:.2s;
+}
+#navigation > ul > li > a:hover,
+#navigation2 > ul > li > a:hover,
+#navigation > ul > li > a:focus,
+#navigation2 > ul > li > a:focus
+{
+  color:var(--blue);
+}
+#navigation > ul > li > a:hover:before,
+#navigation2 > ul > li > a:hover:before,
+#navigation > ul > li > a:focus:before,
+#navigation2 > ul > li > a:focus:before
+{
+  opacity:1;
+  height:2px;
+}
+#navigation > ul > li > ul > li > a
+{
+  color:var(--nav-grey);
+  text-decoration:none;
+  font-size:13px;
+  font-weight:bold;
+  padding:5px;
+  display:block;
+  transition:.2s;
+}
+#navigation2 > ul > li > ul > li > a
+{
+  color:var(--white);
+  text-decoration:none;
+  font-size:13px;
+  padding:5px;
+  display:block;
+  transition:.2s;
+}
+#navigation > ul > li > ul > li > a:hover,
+#navigation > ul > li > ul > li > a:focus
+{
+  background-color:var(--nav-light-grey);
+}
+#navigation2 > ul > li > ul > li > a:hover,
+#navigation2 > ul > li > ul > li > a:focus
+{
+  background-color:var(--dark-grey2);
+}
+#navigation > ul > li > ul
+{
+  list-style:none;
+  background-color:var(--white);
+  width:140px;
+  height:auto;
+  position:absolute;
+  text-align:center;
+  left:-40px;
+  border-radius:5px;
+  top:65px;
+  line-height:none!important;
+  opacity:0;
+  pointer-events:none;
+  transition:.2s;
+  padding:5px 0px 5px 0px;
+  z-index:1;
+}
+#navigation2 > ul > li > ul
+{
+  list-style:none;
+  background-color:var(--dark-grey);
+  width:140px;
+  height:auto;
+  position:absolute;
+  text-align:center;
+  left:-40px;
+  border-radius:5px;
+  top:65px;
+  line-height:none!important;
+  opacity:0;
+  pointer-events:none;
+  transition:.2s;
+  padding:5px 0px 5px 0px;
+  z-index:1;
+}
+#navigation > ul > li:nth-child(4):hover .backing,
+#navigation2 > ul > li:nth-child(4):hover .backing
+{
+  opacity:1;
+  top:70px;
+  pointer-events:all;
+}
+.button1
+{
+  background-color:var(--blue);
+  padding:10px 20px;
+  border-radius:3px;
+  font-size:12px;
+  font-weight:bold;
+  text-decoration:none;
+  color:var(--white);
+  transition:.3s;
+}
+.button1:hover,
+.button1:focus
+{
+  background-color:var(--blue2);
+}
+.service
+{
+  width:250px;
+  height:165px;
+  display:inline-block;
+  margin:2px 0px;
+  transition:.3s;
+  position:relative;
+}
+.service::before
+{
+  content:'';
+  position:absolute;
+  width:0%;
+  height:2px;
+  background-color:var(--blue);
+  left:0;
+  right:0;
+  opacity:0;
+  margin:0 auto;
+  bottom:0;
+  transition:.3s;
+}
+.service:hover:before
+{
+  width:100%;
+  opacity:1;
+}
+.service:hover
+{
+  box-shadow:0px 2px 10px var(--black-semi-transparent);
+}
+#mobile-navigation a
+{
+  color:var(--white);
+  text-decoration:none;
+  font-size:15px;
+}
+.favourites
+{
+  width:300px;
+  height:300px;
+  display:inline-block;
+  position:relative;
+  margin:-2px;
+  cursor:pointer;
+  opacity:.6;
+  transition:.3s;
+  user-select:none;
+}
+.favourites:hover
+{
+  opacity:1;
+}
+.f-title
+{
+  position:absolute;
+  color:var(--white);
+  width:100%;
+  z-index:1;
+  bottom:10px;
+  font-size:14px;
+  opacity:0;
+  transition:.3s;
+}
+.favourites:hover .f-title,
+.favourites:hover .f-size::after
+{
+  opacity:1;   
+}
+.f-size::before
+{
+  content:'';
+  position:absolute;
+  background-image:url(../media/assets/stroke-circle-07.png);
+  width:100%;
+  height:100%;
+  left:0;
+  background-size:15px;
+  opacity:0;
+}
+.f-size::after
+{
+  content:'';
+  position:absolute;
+  background:var(--banner-gradient-bottom);
+  width:100%;
+  height:100%;
+  left:0;
+  opacity:0;
+}
+.favourites:hover .f-size::before
+{
+  opacity:.15;
+}
+/*gallery*/
+.gallery-title
+{
+  position:absolute;
+  width:100%;
+  text-align:center;
+  bottom:15px;
+  color:var(--white);
+  font-size:14px;
+  opacity:0;
+  transition:.3s;
+}
+.gallery-input::after
+{
+  content:'';
+  position:absolute;
+  background:var(--banner-gradient-bottom);
+  width:100%;
+  height:100%;
+  left:0;
+  opacity:0;
+  transition:.3s;
+}
+.gallery-input::before
+{
+  content:'';
+  position:absolute;
+  background-image:url(../media/assets/stroke-circle-07.png);
+  width:100%;
+  height:100%;
+  left:0;
+  background-size:14px;
+  opacity:0;
+  transition:.3s;
+}
+.controls
+{
+  position:absolute;
+  bottom:15px;
+  left:15%;
+  font-size:15px;
+  opacity:0;
+  transition:.3s;
+}
+.gallery-tile:hover .gallery-input::before
+{
+  opacity:.21;  
+}
+.gallery-tile:hover .gallery-title,
+.gallery-tile:hover .gallery-input::after,
+.gallery-tile:hover .controls
+{
+  opacity:1;
+}
+.button-p
+{
+  padding:10px 15px 10px 15px;
+  background-color:var(--blue);
+  font-size:13px;
+  color:var(--white);
+  font-weight:bold;
+  border-radius:3px;
+  text-decoration:none;
+  transition:.3s;
+}
+.button-p:hover
+{
+  background-color:var(--blue2);
+}
+.button-p-active
+{
+  padding:10px 15px 10px 15px;
+  background-color:var(--accent-grey);
+  font-size:13px;
+  color:var(--white);
+  font-weight:bold;
+  border-radius:3px;
+  cursor:default;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

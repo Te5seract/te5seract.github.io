@@ -1,0 +1,413 @@
+.warning-contain
+{
+  position:absolute;
+  z-index:2;
+  color:var(--white);
+  text-align:center;
+  left:50%;
+  top:82%;
+  transform:translate(-50%,-50%);  
+}
+.warning
+{
+ font-size:35px;
+}
+.warning-text
+{
+  font-size:13px!important;
+}
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*base*/
+#banner
+{
+  width:100%;
+  height:400px;
+  position:relative;
+  overflow:hidden;
+  order:1;
+  transition:.3s;
+}
+#navigation2
+{
+  width:100%;
+  height:60px;
+  color:var(--white);
+  background-color:var(--nav-light-grey);
+  border-bottom:1px solid var(--accent-grey);
+  position:relative;
+}
+.menu-close
+{
+  display:none;
+  color:var(--white);
+  padding-bottom:20px;
+  position:relative;
+  z-index:8;
+}
+.menu-open
+{
+  display:none;
+}
+#mobile-navigation
+{
+  visibility:visible;
+  text-align:center;
+  position:absolute;
+  width:0%;
+  height:100%;
+  line-height:50px;
+  z-index:7;
+  overflow:hidden;
+  transition:.2s;
+  right:-50%;
+  left:-50%;
+  opacity:0;
+  margin:0 auto;
+}
+#mobile-navigation ul
+{
+  position:relative;
+  z-index:8;
+}
+.menu-background-img
+{
+  background-image:url(../media/images/singularity.png);
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+}
+.menu-background-img::before
+{
+  content:'';
+  background-color:var(--nav-transparent);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.alt-logo
+{
+  color:var(--ia-logo-grey);
+  position:absolute;
+  font-size:45px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin:0 auto;
+}
+#navigation
+{
+  width:100%;
+  height:60px;
+  position:absolute;
+  z-index:4;
+  color:var(--white);
+}
+#navigation > ul,
+#navigation2 > ul
+{
+  width:calc(100% - 10%);
+  margin:0 auto;
+}
+#navigation > ul > li,
+#navigation2 > ul > li
+{
+  display:inline-block;
+  line-height:60px;
+  list-style:none;
+}
+#navigation > ul > li:nth-child(4),
+#navigation2 > ul > li:nth-child(4)
+{
+  position:relative;
+  cursor:pointer;
+}
+#navigation > ul > li:nth-child(4) > a::before,
+#navigation2 > ul > li:nth-child(4) > a::before
+{
+  display:none;
+}
+#navigation > ul > li > ul > li,
+#navigation2 > ul > li > ul > li
+{
+  line-height:40px;
+}
+#navigation > ul > li > ul::before
+{
+  content:'';
+  position:absolute;
+  border:9px solid transparent;
+  border-bottom:8px solid var(--white);
+  top:-17px;
+  right:63px;
+  margin:0 auto;
+}
+#navigation2 > ul > li > ul::before
+{
+  content:'';
+  position:absolute;
+  border:9px solid transparent;
+  border-bottom:8px solid var(--dark-grey);
+  top:-17px;
+  right:63px;
+  margin:0 auto;
+}
+.texture-banner
+{
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-image:url(../media/assets/hex-06.png);
+  background-size:7px;
+  background-position:center;
+  z-index:3;
+  opacity:.2;
+}
+.bg-img
+{
+  background-image:url(../media/images/singularity.png);
+  background-size:cover;
+  background-position:center;
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+.bg-img::before
+{
+  content:'';
+  width:100%;
+  height:190px;
+  background:var(--banner-gradient-top);
+  position:absolute;
+  top:0;
+  z-index:1;
+}
+.bg-img::after
+{
+  content:'';
+  width:100%;
+  height:190px;
+  background:var(--banner-gradient-bottom);
+  position:absolute;
+  bottom:0;
+  z-index:1;
+}
+.banner-content
+{
+  position:absolute;
+  z-index:4;
+  width:500px;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  color:var(--white); 
+  transition:.3s;
+}
+.banner-content > span:nth-child(1) /*banner logo*/
+{ 
+  font-size:80px;
+}
+.banner-content > p
+{ 
+  margin-top:10px;
+  font-size:18px;
+  margin-bottom:20px;
+}
+#footer
+{
+  width:70%;
+  height:100px;
+  border-top:1px solid var(--accent-grey2);
+  margin:0 auto;
+  font-size:12px;
+  color:var(--accent-grey);
+  text-align:center;
+}
+#footer > span
+{
+  line-height:100px;
+}
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*page content*/
+#info
+{
+  margin:20px auto;
+  width:100%;
+  border-bottom:1px solid var(--accent-grey2);
+  text-align:center;
+  color:var(--blue);
+  padding-bottom:30px;
+}
+#info2
+{
+  margin:20px auto;
+  width:100%;
+  text-align:center;
+  color:var(--blue);
+  padding-bottom:30px;
+}
+#info > p
+{
+  width:calc(100% - 40%);
+  margin:0 auto;
+  font-size:14px;
+  margin-bottom:20px;
+}
+.service > p
+{
+  font-size:12px;
+  font-weight:bold;
+  cursor:default;
+}
+.service > span
+{
+  font-size:110px;
+  margin-top:10px;
+}
+.service-canvas
+{
+  width:780px;
+  margin:0 auto;
+}
+.f-size
+{
+  position:absolute;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  width:100%;
+  height:100%;
+}
+.fav-canvas
+{
+  width:40%;
+  margin:0px auto;
+}
+.f-img1
+{
+  background-image:url(../media/images/whirlywirly2.png);
+}
+.f-img2
+{
+  background-image:url(../media/images/Palm%20block.png);
+}
+.f-img3
+{
+  background-image:url(../media/images/prismatic.png);
+}
+.f-img4
+{
+  background-image:url(../media/images/banner-large.gif);
+}
+#img-view
+{
+  position:fixed;
+  width:100%;
+  height:100%;
+  background-color:var(--black-bg-transparent);
+  display:none;
+  z-index:6;
+  text-align:center;
+}
+#img-view::before
+{
+  content:'';
+  position:fixed;
+  width:100%;
+  height:100px;
+  background:var(--gradient-bottom);
+  left:0;
+  bottom:0;
+}
+#img-view::after
+{
+  content:'';
+  position:fixed;
+  width:100%;
+  height:100px;
+  background:var(--gradient-top);
+  left:0;
+  top:0;
+}
+.light-box > img
+{
+  max-width:70%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  max-height:80%;
+  border-radius:5px;
+  z-index:6;
+  box-shadow:0px 0px 10px rgba(0,0,0, .5);
+}
+.title-output
+{
+  position:absolute;
+  right:-50%;
+  left:-50%;
+  bottom:0;
+  margin:0 auto;
+  width:300px;
+  height:60px;
+  line-height:60px;
+  color:var(--white);
+  font-weight:bolder;
+  font-size:17px;
+}
+/*///////////////////////////////////*/
+/*///////////////////////////////////*/
+/*images*/
+#gallery
+{
+  width:100%;
+  height:auto;
+  text-align:center;
+}
+.gallery-tile
+{
+  width:472px;
+  height:472px;
+  display:inline-block;
+  position:relative;
+  margin:-3px;
+  cursor:pointer;
+}
+.gallery-canvas
+{
+  margin:3px 0px 30px 0px;   
+}
+.gallery-input
+{
+  position:absolute;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  width:100%;
+  height:100%;
+}
+.controls > a
+{
+  color:var(--white);
+  text-decoration:none;
+  cursor:pointer;
+}
+/*pagination*/
+.pagination
+{
+  margin-bottom:30px;
+}
+
+
+
+
+
+
+

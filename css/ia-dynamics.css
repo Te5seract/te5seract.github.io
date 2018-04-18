@@ -1,0 +1,44 @@
+@media only screen and (max-device-width:425px){
+  #navigation > ul,
+  #navigation2 > ul
+  {
+    display:none;
+  }
+  #navigation,
+  #navigation2
+  {
+    text-align:center;
+  }
+  .menu-close, .menu-open
+  {
+    display:block;
+    padding-top:19px;
+    font-size:25px;
+  }
+  .alt-logo
+  {
+    display:none;   
+  }
+  .menu-open
+  { 
+    color:var(--nav-grey);
+  }
+  #banner
+  {
+    height:250px;
+  }
+  .banner-content > a,
+  .banner-content > p
+  {
+    display:none;
+  }
+  .banner-content > span:nth-child(1) /*banner logo*/
+  { 
+    font-size:60px;
+  }
+  .banner-mod
+  {
+    padding:0;
+    color:var(--white);
+  }
+}
