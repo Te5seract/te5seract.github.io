@@ -1,3 +1,110 @@
+@media only screen and (max-width:1000px){
+  .service-canvas
+  {
+    width:600px;  
+  }
+  .fav-canvas
+  {
+    width:70%;  
+  }
+  .favourites
+  {
+    width:250px;
+    height:250px;
+  }
+  .f-title
+  {
+    font-size:12px; 
+    font-weight:bold;
+  }
+  .downloads-canvas
+  {
+    width:60%;
+    text-align:center;
+    margin:0 auto;
+  }
+  .dwn-img
+  {
+    width:100%;  
+  }
+  .download-preview-tile
+  {
+    float:none;
+    display:inline-block;
+    width:100%;
+    margin:5px auto 20px;
+  }
+  .download-info
+  {
+    width:90%;  
+  }
+}
+@media only screen and (max-width:850px){
+  .service-canvas
+  {
+    width:600px;  
+  }
+  .fav-canvas
+  {
+    width:70%;  
+  }
+  .favourites
+  {
+    width:250px;
+    height:250px;
+  }
+  .f-title
+  {
+    font-size:12px; 
+    font-weight:bold;
+  }
+  .alt-logo
+  {
+    display:none;
+  }
+}
+@media only screen and (max-width:650px){
+  .service-canvas
+  {
+    width:300px;  
+  }
+  .fav-canvas
+  {
+    width:250px;  
+  }
+  .warning-contain
+  {
+    width:70%;
+  }
+  #info > p,
+  #info2 > p
+  {
+    width:90%;
+  }
+  .fav-canvas
+  {
+    width:90%;  
+  }
+}
+@media only screen and (max-width:350px){
+  .service
+  {
+    width:200px;
+    height:200px;
+  }
+  .service:hover:before
+  {
+    display:none;
+  }
+  .service:hover
+  {
+    transform:none;
+  }
+  #navigation
+  {
+    display:none;   
+  }
+}
 @media only screen and (max-device-width:425px){
   #navigation > ul,
   #navigation2 > ul
@@ -8,12 +115,26 @@
   #navigation2
   {
     text-align:center;
+    line-height:70px;
+  }
+  #info > p,
+  #info2 > p
+  {
+    width:90%;
   }
   .menu-close, .menu-open
   {
-    display:block;
-    padding-top:19px;
+    display:inline-block;
     font-size:25px;
+  }
+  .menu-close
+  {
+    margin-top:20px;  
+  }
+  .gallery-tile
+  {
+    width:210px;
+    height:210px;
   }
   .alt-logo
   {
@@ -22,10 +143,15 @@
   .menu-open
   { 
     color:var(--nav-grey);
+    margin-top:5px;
   }
   #banner
   {
     height:250px;
+  }
+  .banner-content
+  {
+    top:75%;
   }
   .banner-content > a,
   .banner-content > p
@@ -34,11 +160,67 @@
   }
   .banner-content > span:nth-child(1) /*banner logo*/
   { 
-    font-size:60px;
+    font-size:50px;
   }
   .banner-mod
   {
     padding:0;
     color:var(--white);
   }
+  .warning-contain
+  {
+    width:70%;
+    top:20%;
+  }
+  .warning
+  {
+    font-size:20px;  
+  }
+  .warning-text
+  {
+    font-size:11px!important;  
+  }
+  .service:hover:before
+  {
+    display:none;
+  }
+  .service:hover
+  {
+    transform:none;
+  }
+  .downloads-canvas
+  {
+    width:300px;
+    text-align:center;
+    margin:0 auto;
+  }
+  .dwn-img
+  {
+    width:260px;  
+  }
+  .download-preview-tile
+  {
+    float:none;
+    display:inline-block;
+    width:300px;
+  }
+  .download-info
+  {
+    width:250px;  
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

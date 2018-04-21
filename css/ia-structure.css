@@ -1,7 +1,7 @@
 .warning-contain
 {
   position:absolute;
-  z-index:2;
+  z-index:3;
   color:var(--white);
   text-align:center;
   left:50%;
@@ -10,7 +10,7 @@
 }
 .warning
 {
- font-size:35px;
+ font-size:30px;
 }
 .warning-text
 {
@@ -72,7 +72,7 @@
 }
 .menu-background-img
 {
-  background-image:url(../media/images/singularity.png);
+  background-image:url(../media/images/singularity-small.png);
   background-size:cover;
   background-position:center;
   width:100%;
@@ -170,7 +170,7 @@
 }
 .bg-img
 {
-  background-image:url(../media/images/singularity.png);
+  background-image:url(../media/images/singularity-small.png);
   background-size:cover;
   background-position:center;
   width:100%;
@@ -280,6 +280,7 @@
 {
   width:780px;
   margin:0 auto;
+  transition:.3s;
 }
 .f-size
 {
@@ -442,3 +443,71 @@
   max-width:50%;
   padding:10px;
 }
+/*downloads page*/
+.down-tile
+{
+  width:300px;
+  height:400px;
+  background-color:var(--light-grey);
+  border:1px solid var(--accent-grey);
+  position:relative;
+  display:inline-block;
+  margin:3px;
+  color:var(--nav-grey);
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+}
+.down-tile > h3
+{
+  font-size:14px;
+  padding:5px
+}
+.download-preview-tile
+{
+  width:600px;
+  position:relative;
+  margin:5px;
+  float:left;
+  display:inline-block;
+  transition:.2s;
+}
+.dwn-img
+{
+  width:100%;
+  margin-bottom:-5px;
+}
+.download-info
+{
+  width:300px;
+  text-align:center;
+  color:var(--nav-grey);
+  background-color:var(--light-grey);
+  border:1px solid var(--accent-grey);
+  font-size:13px;
+  padding:10px;
+  border-radius:3px;
+}
+.download-info > p
+{
+  padding:10px;
+}
+.download-info > a
+{
+  margin:10px;
+}
+.downloads-canvas
+{
+  content:'';
+  clear:both;
+  display:table;
+  margin:20px auto;
+}
+
+
+
+
+
+
+
+
+
