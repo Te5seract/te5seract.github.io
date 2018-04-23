@@ -277,11 +277,42 @@
 {
   background-image:url(../media/images/OrganicBrushes.png);
 }
-
-
-
-
-
+/*download page*/
+.theme-bg-img
+{
+  width:100%;
+  height:200px;
+  background-size:cover;
+  background-position:center;
+  top:0;
+  left:0;
+}
+.theme-img1
+{
+  background-image:url(../media/images/themedp.png);
+}
+.theme-img2
+{
+  background-image:url(../media/images/6YS3w7Z.png);
+}
+.theme-banner-size
+{
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position:center;
+  top:0;
+  left:0;  
+  opacity:.3;
+}
+.theme-page-bg1
+{
+  background-image:url(../media/images/themedp.png);
+}
+.theme-page-bg2
+{
+  background-image:url(../media/images/6YS3w7Z.png);
+}
 
 
 

@@ -38,6 +38,10 @@
   {
     width:90%;  
   }
+  .button1
+  {
+    display:inline-block; 
+  }
 }
 @media only screen and (max-width:850px){
   .service-canvas
@@ -62,6 +66,16 @@
   {
     display:none;
   }
+  .theme-info-block
+  {
+    display:inline-block;
+    float:none;
+    width:70%;
+  }
+  .theme-info-canvas
+  {
+    width:100%;   
+  }
 }
 @media only screen and (max-width:650px){
   .service-canvas
@@ -81,9 +95,9 @@
   {
     width:90%;
   }
-  .fav-canvas
+  .theme-banner-content > h2
   {
-    width:90%;  
+    font-size:20px;
   }
 }
 @media only screen and (max-width:350px){
@@ -129,7 +143,11 @@
   }
   .menu-close
   {
-    margin-top:20px;  
+    position:absolute;
+    bottom:10%;
+    right:-50%;
+    left:-50%;
+    margin:0 auto;
   }
   .gallery-tile
   {
@@ -151,7 +169,7 @@
   }
   .banner-content
   {
-    top:75%;
+    top:50%;
   }
   .banner-content > a,
   .banner-content > p
@@ -170,7 +188,9 @@
   .warning-contain
   {
     width:70%;
-    top:20%;
+    top:2%;
+    left:-12%;
+    transform:none;
   }
   .warning
   {
@@ -207,6 +227,21 @@
   .download-info
   {
     width:250px;  
+  }
+  .theme-banner-content > h2
+  {
+    font-size:20px;
+  }
+  .button1
+  {
+    display:inline-block; 
+  }
+  .theme-info-block
+  {
+    display:inline-block;
+    float:none;
+    width:90%;
+    margin:3px auto;
   }
 }
 

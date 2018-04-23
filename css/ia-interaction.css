@@ -83,6 +83,11 @@
 {
   background-color:var(--dark-grey2);
 }
+.active-tab
+{
+  background-color:var(--dark-grey2);
+  cursor:default;
+}
 #navigation > ul > li > ul
 {
   list-style:none;
