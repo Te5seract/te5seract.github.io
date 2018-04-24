@@ -9,6 +9,10 @@ $(document).ready(function()
       'visibility':'visible',
       'opacity':'1'
     });
+    $('.menu-close').css(
+    {
+      'width':'100%'
+    });   
     $('body').css({'overflow':'hidden'});
   });
   $('.menu-close').click(function()
@@ -18,7 +22,11 @@ $(document).ready(function()
       'width':'0',
       'visibility':'hidden',
       'opacity':'0'
-    });   
+    }); 
+    $('.menu-close').css(
+    {
+      'width':'0'
+    });  
     $('body').css({'overflow':'auto'});
   });
 //////////////////////////////////////    
