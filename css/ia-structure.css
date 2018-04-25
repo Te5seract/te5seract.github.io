@@ -605,3 +605,166 @@ textarea
   text-align:left;
   padding:10px;
 }
+/*iacons page*/
+#iacon-intro
+{
+  position:absolute;
+  background-color:var(--white);
+  width:100%;
+  height:100%;
+  z-index:10;
+  opacity:0;
+  pointer-events:none;
+}
+#iacon-intro > video
+{
+  width:80%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+/*iacons pop up*/
+.icon-tile-contain
+{
+  content:'';
+  clear:both;
+  display:table;
+  margin:0 auto;
+  width:660px;
+}
+#iacon-link-canvas
+{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:7;
+  top:0;
+  left:0;
+  display:none;
+}
+.icon-info-box
+{
+  position:absolute;
+  width:500px;
+  height:230px;
+  background-color:var(--iacon-bg);
+  border-radius:3px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  box-shadow:0px 2px 10px var(--iacon-dropshadow);
+  text-align:center;
+  color:var(--blue);
+  transition:.2s;
+}
+.icon-title
+{
+  user-select:none;
+}
+.icon-title > span
+{
+  font-size:35px;
+}
+.icon-title > h3
+{
+  font-size:17px;
+  font-weight:bold;
+  font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding:5px;
+  margin-top:15px;  
+}
+.icon-title
+{
+  margin-top:35px;
+  width:100%;
+  padding:15px 0 13px 0px;
+  border-bottom:1px solid var(--iacon-accent);
+  border-top:1px solid var(--iacon-accent);
+}
+.icon-info-box > textbox
+{
+  margin:0 auto;
+}
+.input-container
+{
+  width:450px;
+  background-color:var(--iacon-input);
+  margin:0 auto;
+  padding:5px;
+  border-radius:3px;
+  position:absolute;
+  bottom:27px;
+  left:-50%;
+  right:-50%;
+  margin:0 auto;
+  font-size:14px;
+}
+.iacon-close
+{
+  right:10px;
+  top:10px;
+  position:absolute;
+  cursor:pointer;
+}
+.iacon-infobox-left-title
+{
+  font-size:13px;
+  font-weight:bolder;
+  font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  position:absolute;
+  left:10px;
+  user-select:none;
+  top:10px;
+}
+.iacon-title
+{
+  font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size:60px;
+}
+.link-install-container
+{
+  width:640px;
+  height:30px;
+  text-align:center;
+  margin:0 auto;
+  font-size:13px;
+  margin-bottom:20px;
+  margin-top:-10px;
+  background-color:var(--accent-grey2);
+  line-height:30px;
+  border-radius:3px;
+  color:var(--ia-logo-grey);
+}
+.iacon-title ~ p
+{
+  padding-top:50px;
+  font-size:13px!important;
+  font-style:italic;
+}
+.iacon-version
+{
+  font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -273,6 +273,24 @@
   {
     display:none;
   }
+/*iacons*/
+  .icon-tile-contain
+  {
+    width:330px;  
+  }
+  .link-install-container
+  {
+    width:370px;  
+    font-size:10px;
+  }
+  .icon-info-box
+  {
+    width:350px;
+  }
+  .input-container
+  {
+    width:300px;
+  }
 }
 @media only screen and (max-device-width:425px){
   .gallery-tile
@@ -305,6 +323,32 @@
   .service > p
   {
     font-size:10px;
+  }
+}
+@media only screen and (max-device-width:375px){
+  .icon-tile-contain
+  {
+    width:330px;  
+  }
+  .link-install-container
+  {
+    width:340px;  
+    font-size:9px;
+    display:block;
+  }
+  .icon-info-box
+  {
+    width:350px;
+  }
+  .input-container
+  {
+    width:300px;
+  }
+}
+@media only screen and (max-device-width:352px){
+  .icon-tile-contain
+  {
+    width:220px;  
   }
 }
 
