@@ -624,6 +624,10 @@ textarea
   top:50%;
   transform:translate(-50%,-50%);
 }
+video::-internal-media-controls-overlay-cast-button
+{
+  display: none;
+}
 /*iacons pop up*/
 .icon-tile-contain
 {
