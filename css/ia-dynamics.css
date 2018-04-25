@@ -291,6 +291,24 @@
   {
     width:300px;
   }
+  #iacon-intro > video
+  {
+    display:none;
+  }
+  .intro-img
+  {
+    background-image:url(../media/images/iacon-mobile-once.gif);
+    background-size:cover;
+    background-position:center;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:8;
+    width:70%;
+    height:300px; 
+    z-index:8;
+  }
 }
 @media only screen and (max-device-width:425px){
   .gallery-tile
