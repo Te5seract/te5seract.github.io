@@ -1,0 +1,104 @@
+#navigation > ul,
+#navigation2 > ul
+{
+  animation:1 slide .5s;
+}
+@keyframes slide{
+  0%
+    {
+      transform:translateX(-400px);
+      opacity:0;
+    }
+  100%
+    {
+      transform:translateX(0px);
+      opacity:1;
+    }
+}
+@-webkit-keyframes slide{
+  0%
+    {
+      transform:translateX(-400px);
+      opacity:0;
+    }
+  100%
+    {
+      transform:translateX(0px);
+      opacity:1;
+    }
+}
+@-moz-keyframes slide{
+  0%
+    {
+      transform:translateX(-400px);
+      opacity:0;
+    }
+  100%
+    {
+      transform:translateX(0px);
+      opacity:1;
+    }
+}
+body
+{
+  animation:1 fade .3s;
+}
+@keyframes fade{
+  0%
+  {
+    opacity:0;  
+  }
+  100%
+  {
+    opacity:1;
+  }
+}
+#iacon-intro
+{
+  animation:1 intro 5s;
+}
+@keyframes intro{
+  0%
+  {
+    opacity:1;
+    pointer-events:all;
+  }
+  50%
+  {
+    opacity:1;
+    pointer-events:all;
+  }
+  100%
+  {
+    opacity:0;
+  }
+}
+#iacon-overflow
+{
+  animation:1 intro-freeze 5s;  
+}
+@keyframes intro-freeze{
+  0%
+  {
+    overflow:hidden;
+  }
+  50%
+  {
+    overflow:hidden;
+  }
+  100%
+  {
+    overflow:auto;  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

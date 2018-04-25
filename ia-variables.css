@@ -1,0 +1,37 @@
+*
+{
+  margin:0;
+  padding:0;
+
+/*font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+    
+  --white:#fff;
+  --nav-grey:#6d6e71;
+  --text-dark-grey:#58595B;
+  --nav-light-grey:#e6e7e8;
+  --accent-grey:#d1d3d4;
+  --accent-grey2:#e6e7e8;
+  --accent-purple:#2F2259;
+  --dark-grey:#414042;
+  --dark-grey2:#333;
+  --ia-logo-grey:#a7a9ac;
+  --blue:#78d2f7;
+  --blue2:#57c6f2;
+  --light-grey:#f2f2f2;
+  --black-semi-transparent:rgba(0,0,0,.17);
+  --black-semi-transparent2:rgba(17,11,33,.5);
+  --nav-transparent:rgba(22,18,38, .8);
+  --black-bg-transparent:rgba(0,0,0,.8);
+    
+  --banner-gradient-top:linear-gradient(to bottom, rgba(0,0,28,1)10%, rgba(0,0,28,1)10%, rgba(17,11,33, 0));
+  --gradient-bottom:linear-gradient(to top, rgba(0,0,0,.7), rgba(0,0,0, 0));
+  --gradient-top:linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0, 0));
+  --banner-gradient-bottom:linear-gradient(to top, rgba(0,0,28,.7), rgba(17,11,33, 0)40%);
+  --banner-white:linear-gradient(to top, rgba(255,255,255,1)5%, rgba(255,255,255,0)90%);
+    
+  --iacon-bg:#2b313b;
+  --iacon-accent:#242931;
+  --iacon-input:#262a33;
+  --iacon-dropshadow:rgba(43,49,59,.3);
+}
