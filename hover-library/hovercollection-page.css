@@ -1,0 +1,93 @@
+*
+{
+  margin:0;
+  padding:0;
+  font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+  --amb-bg:#fff;
+  --text:#7a7a7a;
+  --accent:#f2f2f2;
+}
+body
+{
+  background-color:var(--amb-bg);
+}
+#toparea
+{
+  width:100%;
+  margin:30px auto;
+}
+#toparea h2
+{
+  text-align:center;
+  color:var(--text);
+  border-bottom:1px solid var(--accent);
+  padding-bottom:10px;
+  width:350px;
+  margin:0 auto;
+}
+#toparea p
+{
+  text-align:center;
+  color:var(--text);
+  font-size:13px;
+  margin-top:20px;
+}
+.navcont
+{
+  list-style:none;
+  font-size:14px;
+  margin:10px;
+  float:left;
+}
+section
+{
+  clear:both;
+}
+#hoverstyles
+{
+  width:calc(100% - 34%);
+  height:auto;
+  margin:50px auto;
+  border-radius:5px;
+}
+#hoverstyles h2
+{
+  text-align:center;
+  color:#7a7a7a;
+  margin-bottom:10px;
+  padding:10px;
+  border-bottom:1px solid #e0e0e0;
+}
+@media only screen and (max-width:500px){
+  #hoverstyles h2
+  {
+    width:100%;
+  }
+  #hoverstyles
+  {
+    text-align:center;
+  }
+}
+@media only screen and (max-width:1180px){
+  #hoverstyles h2
+  {
+    width:100%;
+  }
+  #hoverstyles
+  {
+    text-align:center;
+  }
+}
+[class^='bg-'],[class^='misc-']
+{
+  border-radius:3px;
+}
+#hoverstyles a[class]
+{
+
+}
+#hoverstyles a[class]::before,
+#hoverstyles a[class]::after
+{
+
+}
