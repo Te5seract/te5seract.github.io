@@ -295,20 +295,27 @@
   {
     display:none;
   }
-  .intro-img
+  .intro-mobile
   {
-    background-image:url(../media/images/iacon-mobile-once.gif);
-    background-size:cover;
-    background-position:center;
+    font-size:40px;
+    color:var(--blue);
     position:absolute;
-    top:45%;
     left:50%;
+    top:45%;
     transform:translate(-50%,-50%);
-    z-index:8;
-    width:70%;
-    height:300px; 
-    z-index:8;
+    display:block;
+    text-align:center;
   }
+  .intro-mobile > h2,
+  .intro-mobile > p
+  {
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }  
+  .intro-mobile > p
+  {
+    font-size:13px;
+    font-weight:bold;
+  }      
 }
 @media only screen and (max-device-width:425px){
   .gallery-tile

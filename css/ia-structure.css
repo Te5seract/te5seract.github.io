@@ -28,6 +28,7 @@
   overflow:hidden;
   order:1;
   transition:.3s;
+  background-color:var(--accent-purple);
 }
 #navigation2
 {
@@ -66,6 +67,7 @@
   opacity:0;
   margin:0 auto;
   overflow:auto!important;
+  background-color:var(--accent-purple);
 }
 #mobile-navigation ul
 {
@@ -76,6 +78,7 @@
 .menu-background-img
 {
   background-image:url(../media/images/singularity-small.png);
+  background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
   width:100%;
@@ -177,6 +180,7 @@
   background-image:url(../media/images/singularity-small.png);
   background-size:cover;
   background-position:center;
+  background-repeat:no-repeat;
   width:100%;
   height:100%;
   position:absolute;
@@ -609,10 +613,10 @@ textarea
 /*iacons page*/
 #iacon-intro
 {
-  position:absolute;
+  position:fixed;
   background-color:var(--white);
   width:100%;
-  height:100%;
+  height:calc(100% + 60px);
   z-index:10;
   opacity:0;
   pointer-events:none;
@@ -751,7 +755,10 @@ video::-internal-media-controls-overlay-cast-button
 {
   font-size:12px;
 }
-
+.intro-mobile
+{
+  display:none;
+}
 
 
 
