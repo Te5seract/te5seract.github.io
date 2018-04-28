@@ -353,12 +353,13 @@
   color:var(--nav-grey);
   background-color:var(--accent-grey2);
   font-size:30px;
-  line-height:90px;
   transition:.3s;
   float:left;
   margin:10px;
-  position:relative;
-  overflow:hidden;
+}
+.icon-tile > span
+{
+  line-height:90px;
 }
 .icon-tile:hover
 {
@@ -379,14 +380,6 @@
 {
   height:3px;
 }
-
-
-
-
-
-
-
-
 
 
 

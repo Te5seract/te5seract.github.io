@@ -113,8 +113,27 @@ body
     top:50%;
   }
 }
-
-
+.icon-tile-contain
+{
+  animation:1 icons-ease .7s;
+  animation-delay:2.4s;
+}
+@keyframes icons-ease{
+  0%
+  {
+    opacity:0;
+    transform:translateY(50px);
+  }
+  50%
+  {
+    opacity:1;
+    transform:translateY(50px);
+  }
+  100%
+  {
+    transform:translateY(0px);
+  }
+}
 
 
 

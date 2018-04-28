@@ -640,7 +640,9 @@ video::-internal-media-controls-overlay-cast-button
   clear:both;
   display:table;
   margin:0 auto;
+  margin-top:15px;
   width:660px;
+  transition:.3s;
 }
 #iacon-link-canvas
 {
@@ -744,6 +746,11 @@ video::-internal-media-controls-overlay-cast-button
   line-height:30px;
   border-radius:3px;
   color:var(--ia-logo-grey);
+  transition:.3s;
+}
+.link-install-container ~ a
+{
+  font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;  
 }
 .iacon-title ~ p
 {
@@ -759,9 +766,6 @@ video::-internal-media-controls-overlay-cast-button
 {
   display:none;
 }
-
-
-
 
 
 

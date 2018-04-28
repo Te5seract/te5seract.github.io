@@ -76,6 +76,14 @@
   {
     width:100%;   
   }
+  .icon-tile-contain
+  {
+    width:550px;
+  }
+  .link-install-container
+  {
+    width:530px;
+  }
 }
 @media only screen and (max-width:650px){
   .service-canvas
@@ -98,6 +106,15 @@
   .theme-banner-content > h2
   {
     font-size:20px;
+  }
+  .icon-tile-contain
+  {
+    width:330px;
+  }
+  .link-install-container
+  {
+    width:370px;
+    font-size:10px;
   }
 }
 @media only screen and (max-width:350px){
@@ -187,7 +204,7 @@
   }
   .banner-content
   {
-    top:55%;
+    top:50%;
   }
   .banner-content > a,
   .banner-content > p
