@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?o14l9u');
-  src:  url('fonts/iacons.eot?o14l9u#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?o14l9u') format('truetype'),
-    url('fonts/iacons.woff?o14l9u') format('woff'),
-    url('fonts/iacons.svg?o14l9u#iacons') format('svg');
+  src:  url('fonts/iacons.eot?3l7pxf');
+  src:  url('fonts/iacons.eot?3l7pxf#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?3l7pxf') format('truetype'),
+    url('fonts/iacons.woff?3l7pxf') format('woff'),
+    url('fonts/iacons.svg?3l7pxf#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ia-magnify:before {
+  content: "\e900";
+}
+.ia-magnify-left:before {
+  content: "\e902";
+}
+.ia-magnify-right:before {
+  content: "\e903";
+}
+.ia-caret-small-left:before {
+  content: "\e92a";
+}
+.ia-caret-small-right:before {
+  content: "\e92c";
+}
+.ia-caret-small-down:before {
+  content: "\e92d";
+}
+.ia-caret-small-up:before {
+  content: "\e930";
+}
 .ia-phone-left:before {
   content: "\e927";
 }
@@ -32,9 +53,6 @@
 }
 .ia-phone-right:before {
   content: "\e929";
-}
-.ia-layers-stroke:before {
-  content: "\e92a";
 }
 .ia-download:before {
   content: "\e92b";
@@ -48,20 +66,14 @@
 .ia-wifi:before {
   content: "\e91a";
 }
+.ia-layers-stroke:before {
+  content: "\e936";
+}
 .ia-layers:before {
   content: "\e91b";
 }
 .ia-user:before {
   content: "\e91c";
-}
-.ia-magnify-left:before {
-  content: "\e91d";
-}
-.ia-magnify:before {
-  content: "\e91e";
-}
-.ia-magnify-right:before {
-  content: "\e91f";
 }
 .ia-pencil-left:before {
   content: "\e920";
@@ -146,31 +158,4 @@
 }
 .ia-caret-up:before {
   content: "\e934";
-}
-.ia-construct:before {
-  content: "\e90a";
-}
-.ia-responsive:before {
-  content: "\e902";
-}
-.ia-mobile-friendly:before {
-  content: "\e903";
-}
-.ia-design:before {
-  content: "\e904";
-}
-.ia-play:before {
-  content: "\e932";
-}
-.ia-theme-brush:before {
-  content: "\e933";
-}
-.ia-sweep:before {
-  content: "\e92e";
-}
-.ia-icon-b:before {
-  content: "\e912";
-}
-.ia-ia-logo:before {
-  content: "\e900";
 }
