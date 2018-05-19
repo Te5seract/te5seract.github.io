@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?3l7pxf');
-  src:  url('fonts/iacons.eot?3l7pxf#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?3l7pxf') format('truetype'),
-    url('fonts/iacons.woff?3l7pxf') format('woff'),
-    url('fonts/iacons.svg?3l7pxf#iacons') format('svg');
+  src:  url('fonts/iacons.eot?7zbt12');
+  src:  url('fonts/iacons.eot?7zbt12#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?7zbt12') format('truetype'),
+    url('fonts/iacons.woff?7zbt12') format('woff'),
+    url('fonts/iacons.svg?7zbt12#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,14 +24,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ia-magnify:before {
+.ia-construct:before {
   content: "\e900";
 }
-.ia-magnify-left:before {
+.ia-design:before {
   content: "\e902";
 }
-.ia-magnify-right:before {
+.ia-ia-logo:before {
   content: "\e903";
+}
+.ia-mobile-friendly:before {
+  content: "\e904";
+}
+.ia-play:before {
+  content: "\e90a";
+}
+.ia-responsive:before {
+  content: "\e912";
+}
+.ia-sweep:before {
+  content: "\e92e";
+}
+.ia-theme-brush:before {
+  content: "\e931";
+}
+.ia-magnify:before {
+  content: "\e901";
+}
+.ia-magnify-left:before {
+  content: "\e905";
+}
+.ia-magnify-right:before {
+  content: "\e906";
 }
 .ia-caret-small-left:before {
   content: "\e92a";
@@ -142,13 +166,13 @@
   content: "\e909";
 }
 .ia-cross:before {
-  content: "\e906";
+  content: "\e91d";
 }
 .ia-app-drawer-dots:before {
-  content: "\e905";
+  content: "\e91e";
 }
 .ia-caret-left:before {
-  content: "\e901";
+  content: "\e91f";
 }
 .ia-caret-right:before {
   content: "\e935";
