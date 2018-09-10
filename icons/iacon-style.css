@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?qftom9');
-  src:  url('fonts/iacons.eot?qftom9#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?qftom9') format('truetype'),
-    url('fonts/iacons.woff?qftom9') format('woff'),
-    url('fonts/iacons.svg?qftom9#iacons') format('svg');
+  src:  url('fonts/iacons.eot?ta8sex');
+  src:  url('fonts/iacons.eot?ta8sex#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?ta8sex') format('truetype'),
+    url('fonts/iacons.woff?ta8sex') format('woff'),
+    url('fonts/iacons.svg?ta8sex#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,41 +24,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ia-ae:before {
-  content: "\e903";
-}
-.ia-ai:before {
-  content: "\e904";
-}
-.ia-brackets:before {
-  content: "\e90a";
-}
-.ia-css:before {
-  content: "\e912";
-}
-.ia-dw:before {
-  content: "\e931";
-}
-.ia-html:before {
-  content: "\e932";
-}
-.ia-id:before {
-  content: "\e933";
-}
-.ia-jquery:before {
-  content: "\e937";
-}
-.ia-ps:before {
-  content: "\e938";
-}
-.ia-xd:before {
-  content: "\e939";
-}
 .ia-iacons-logo:before {
   content: "\e95e";
 }
 .ia-ia-logo:before {
   content: "\e95d";
+}
+.ia-codepen:before {
+  content: "\e903";
 }
 .ia-reddit:before {
   content: "\e92e";
