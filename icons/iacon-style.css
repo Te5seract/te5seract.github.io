@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?ta8sex');
-  src:  url('fonts/iacons.eot?ta8sex#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?ta8sex') format('truetype'),
-    url('fonts/iacons.woff?ta8sex') format('woff'),
-    url('fonts/iacons.svg?ta8sex#iacons') format('svg');
+  src:  url('fonts/iacons.eot?ffttr3');
+  src:  url('fonts/iacons.eot?ffttr3#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?ffttr3') format('truetype'),
+    url('fonts/iacons.woff?ffttr3') format('woff'),
+    url('fonts/iacons.svg?ffttr3#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ia-comment:before {
+  content: "\e904";
+}
 .ia-iacons-logo:before {
   content: "\e95e";
 }
