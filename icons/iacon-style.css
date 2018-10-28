@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?x2o483');
-  src:  url('fonts/iacons.eot?x2o483#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?x2o483') format('truetype'),
-    url('fonts/iacons.woff?x2o483') format('woff'),
-    url('fonts/iacons.svg?x2o483#iacons') format('svg');
+  src:  url('fonts/iacons.eot?l69sqr');
+  src:  url('fonts/iacons.eot?l69sqr#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?l69sqr') format('truetype'),
+    url('fonts/iacons.woff?l69sqr') format('woff'),
+    url('fonts/iacons.svg?l69sqr#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ia-repost:before {
+  content: "\e97b";
+}
 .ia-comment:before {
   content: "\e904";
 }
