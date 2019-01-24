@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?l69sqr');
-  src:  url('fonts/iacons.eot?l69sqr#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?l69sqr') format('truetype'),
-    url('fonts/iacons.woff?l69sqr') format('woff'),
-    url('fonts/iacons.svg?l69sqr#iacons') format('svg');
+  src:  url('fonts/iacons.eot?aoegc');
+  src:  url('fonts/iacons.eot?aoegc#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?aoegc') format('truetype'),
+    url('fonts/iacons.woff?aoegc') format('woff'),
+    url('fonts/iacons.svg?aoegc#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -231,8 +231,14 @@
 .ia-tumblr:before {
   content: "\e943";
 }
-.ia-img:before {
-  content: "\e977";
+.ia-home:before {
+  content: "\e90f";
+}
+.ia-brush:before {
+  content: "\e923";
+}
+.ia-gear:before {
+  content: "\e975";
 }
 .ia-unlink:before {
   content: "\e978";
@@ -242,12 +248,6 @@
 }
 .ia-unlink-right:before {
   content: "\e97a";
-}
-.ia-paragraph:before {
-  content: "\e976";
-}
-.ia-heading:before {
-  content: "\e975";
 }
 .ia-ordered-list:before {
   content: "\e974";
@@ -315,9 +315,6 @@
 .ia-pencil-right:before {
   content: "\e922";
 }
-.ia-gear:before {
-  content: "\e923";
-}
 .ia-spanner-right:before {
   content: "\e924";
 }
@@ -326,9 +323,6 @@
 }
 .ia-spanner-left:before {
   content: "\e90e";
-}
-.ia-brush:before {
-  content: "\e90f";
 }
 .ia-list:before {
   content: "\e910";
