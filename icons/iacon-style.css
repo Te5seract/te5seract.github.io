@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?mxe5er');
-  src:  url('fonts/iacons.eot?mxe5er#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?mxe5er') format('truetype'),
-    url('fonts/iacons.woff?mxe5er') format('woff'),
-    url('fonts/iacons.svg?mxe5er#iacons') format('svg');
+  src:  url('fonts/iacons.eot?96gi5f');
+  src:  url('fonts/iacons.eot?96gi5f#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?96gi5f') format('truetype'),
+    url('fonts/iacons.woff?96gi5f') format('woff'),
+    url('fonts/iacons.svg?96gi5f#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -288,10 +288,10 @@
 .ia-download:before {
   content: "\e92b";
 }
-.ia-subtract:before {
+.ia-add:before {
   content: "\e925";
 }
-.ia-add:before {
+.ia-subtract:before {
   content: "\e926";
 }
 .ia-wifi:before {
