@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iacons';
-  src:  url('fonts/iacons.eot?aoegc');
-  src:  url('fonts/iacons.eot?aoegc#iefix') format('embedded-opentype'),
-    url('fonts/iacons.ttf?aoegc') format('truetype'),
-    url('fonts/iacons.woff?aoegc') format('woff'),
-    url('fonts/iacons.svg?aoegc#iacons') format('svg');
+  src:  url('fonts/iacons.eot?mxe5er');
+  src:  url('fonts/iacons.eot?mxe5er#iefix') format('embedded-opentype'),
+    url('fonts/iacons.ttf?mxe5er') format('truetype'),
+    url('fonts/iacons.woff?mxe5er') format('woff'),
+    url('fonts/iacons.svg?mxe5er#iacons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -231,11 +231,11 @@
 .ia-tumblr:before {
   content: "\e943";
 }
-.ia-home:before {
-  content: "\e90f";
-}
 .ia-brush:before {
   content: "\e923";
+}
+.ia-home:before {
+  content: "\e90f";
 }
 .ia-gear:before {
   content: "\e975";
